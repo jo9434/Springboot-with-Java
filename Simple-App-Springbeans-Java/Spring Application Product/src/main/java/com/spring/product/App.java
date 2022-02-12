@@ -1,4 +1,4 @@
-// This file is created by default.. and the other to class files are created by me. I will be uploading the video and create the same project and upload it here soon...
+// This file is created by default.. and the other to class files are created by me.
 
 package com.spring.product;
 
