@@ -7,8 +7,15 @@ package com.spring.product;
  *
  */
 
-import org.springframework.context.ApplicationContext; /* After adding these import statements, you need to add and download these maven dependencies by right clicking 
-on spring framework...*/
+/*
+**    After adding these import statements, you need to add and download these maven dependencies by right clicking on spring framework and click add maven dependency...
+**
+**    Note: 
+**    When you create your first project, the IntelliJ App automatically intalls maven dependencies so when this appears always select always download maven dependencies
+**    for the first time...
+*/
+
+import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 public class App
@@ -16,7 +23,7 @@ public class App
     public static void main( String[] args )
     {
         // System.out.println( "Hello World!" );
-        ApplicationContext prodContext = new ClassPathXmlApplicationContext("Springbeans.xml");
+        ApplicationContext prodContext = new ClassPathXmlApplicationContext("Springbeans.xml"); // checkout the folder resources/Springbeans.xml
 
         Product prod1 = (Product) prodContext.getBean("product1");
         prod1.addProduct(prod1.getProductId(), prod1.getProductName(), prod1.getProductPrice());
