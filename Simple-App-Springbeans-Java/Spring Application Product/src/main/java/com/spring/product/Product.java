@@ -1,15 +1,15 @@
 package com.spring.product;
 
+@SuppressWarnings("All") // It helps to suppress any code warnings which occur...
 public class Product {
 
     private int productId;
     private String productName;
     private double productPrice;
-
-    @SuppressWarnings("All")
+    
     public Product() {}
-
-    @SuppressWarnings("All")
+    
+    // @SuppressWarnings("All") and can be done in this way also for individual warnings which suppresses the warnings for constructor Product(with variables)...
     public Product(int productId, String productName, double productPrice)
     {
         this.productId = productId;
@@ -20,8 +20,7 @@ public class Product {
     public int getProductId() {
         return productId;
     }
-
-    @SuppressWarnings("All")
+    
     public void setProductId(int productId) {
         this.productId = productId;
     }
@@ -30,7 +29,6 @@ public class Product {
         return productName;
     }
 
-    @SuppressWarnings("All")
     public void setProductName(String productName) {
         this.productName = productName;
     }
@@ -39,12 +37,10 @@ public class Product {
         return productPrice;
     }
 
-    @SuppressWarnings("All")
     public void setProductPrice(double productPrice) {
         this.productPrice = productPrice;
     }
 
-    @SuppressWarnings("All")
     public static void addProduct(int productId, String productName, double productPrice)
     {
         int n = 3;
