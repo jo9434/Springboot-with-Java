@@ -7,7 +7,7 @@
         <property name="bookId" value="273"/>
         <property name="bookName" value="Flipped"/>
         <property name="isbnNo" value="0-439-64998-6"/>
-        <property name="bookGenre" value="Young Adult,Romance"/>
+        <property name="bookGenre" value="Young Adult, Romance"/>
         <property name="pubDate" value="1 October 2001"/>
         <property name="totPages" value="212"/>
 
