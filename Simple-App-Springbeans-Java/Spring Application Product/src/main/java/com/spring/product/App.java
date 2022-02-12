@@ -1,3 +1,5 @@
+// This file is created by default.. and the other to class files are created by me. I will be uploading the video and create the same project and upload it here soon...
+
 package com.spring.product;
 
 /**
@@ -5,7 +7,7 @@ package com.spring.product;
  *
  */
 
-import org.springframework.context.ApplicationContext;
+import org.springframework.context.ApplicationContext; // After adding these import statements, you need to add these maven dependencies by right clicking on spring framework...
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 public class App
