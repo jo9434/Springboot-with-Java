@@ -1,4 +1,4 @@
-// This file is created by default.. and the other to class files are created by me.
+// This file is created by default.. and the other to class file Product is created by me.
 
 package com.spring.product;
 
