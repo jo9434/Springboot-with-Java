@@ -7,7 +7,8 @@ package com.spring.product;
  *
  */
 
-import org.springframework.context.ApplicationContext; // After adding these import statements, you need to add these maven dependencies by right clicking on spring framework...
+import org.springframework.context.ApplicationContext; /* After adding these import statements, you need to add and download these maven dependencies by right clicking 
+on spring framework...*/
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 public class App
